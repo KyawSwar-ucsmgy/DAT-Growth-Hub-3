@@ -56,7 +56,7 @@ public class LoginUserDetail implements UserDetails {
 
 	@Override
 	public String getUsername() {
-		return user.getEmail();
+		return user.getStaffId();
 	}
 
 	public boolean isEnabled() {
@@ -67,4 +67,3 @@ public class LoginUserDetail implements UserDetails {
 		return this.user;
 	}
 }
-
