@@ -11,6 +11,7 @@ public class StudentController {
 		model.addAttribute("content","student/student-dashboard");
 		return "student/student-layout";
 	}
+
 	@GetMapping("/student-view-blog")
 	public String studentViewBlog(Model model) {
 		model.addAttribute("content","student/student-view-blog");
@@ -71,4 +72,5 @@ public class StudentController {
 	public String Forum(Model model) {
 		return "/authenticated-user/forum";
 	}
+
 }
