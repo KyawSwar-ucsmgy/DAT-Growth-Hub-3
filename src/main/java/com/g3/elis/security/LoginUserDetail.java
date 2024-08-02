@@ -66,4 +66,3 @@ public class LoginUserDetail implements UserDetails {
 		return this.user;
 	}
 }
-
