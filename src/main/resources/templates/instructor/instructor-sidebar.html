@@ -100,19 +100,19 @@ Page content START -->
 										<div class="list-group list-group-dark list-group-borderless">
 											<a class="list-group-item"
 												th:classappend="${currentPage == 'instructor-dashboard' ? ' active' : ''}"
-												th:href="@{/instructor-dashboard}"><i
+												th:href="@{/instructor/instructor-dashboard}"><i
 												class="bi bi-ui-checks-grid fa-fw me-2"></i>Dashboard</a> <a
 												class="list-group-item"
 												th:classappend="${currentPage == 'instructor-manage-course' ? ' active' : ''}"
-												th:href="@{/instructor-manage-course}"><i
+												th:href="@{/instructor/instructor-manage-course}"><i
 												class="bi bi-basket fa-fw me-2"></i>My Courses</a> <a
 												class="list-group-item"
 												th:classappend="${currentPage == 'instructor-quiz-result' ? ' active' : ''}"
-												th:href="@{/instructor-quiz-result}"><i
+												th:href="@{/instructor/instructor-quiz-result}"><i
 												class="bi bi-journal-check fa-fw me-2"></i>Student Quiz
 												Results</a> <a class="list-group-item"
 												th:classappend="${currentPage == 'instructor-studentlist' ? ' active' : ''}"
-												th:href="@{/instructor-studentlist}"><i
+												th:href="@{/instructor/instructor-studentlist}"><i
 												class="bi bi-people fa-fw me-2"></i>Students</a> <a
 												class="list-group-item"
 												th:classappend="${currentPage == 'forum' ? ' active' : ''}"
@@ -120,11 +120,11 @@ Page content START -->
 												class="bi bi-chat-dots fa-fw me-2"></i>Forum</a> <a
 												class="list-group-item"
 												th:classappend="${currentPage == 'instructor-view-blog' ? ' active' : ''}"
-												th:href="@{/instructor-view-blog}"><i
+												th:href="@{/instructor/instructor-view-blog}"><i
 												class="fas fa-blog fa-fw me-2"></i>Blogs</a> <a
 												class="list-group-item"
 												th:classappend="${currentPage == 'instructor-edit-profile' ? ' active' : ''}"
-												th:href="@{/instructor-edit-profile}"><i
+												th:href="@{/instructor/instructor-edit-profile}"><i
 												class="bi bi-pencil-square fa-fw me-2"></i>Edit Profile</a> <a
 												class="list-group-item text-danger bg-danger-soft-hover"
 												th:classappend="${currentPage == 'sign-in' ? ' active' : ''}"
